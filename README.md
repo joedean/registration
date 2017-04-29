@@ -11,6 +11,7 @@ A registration web application that manages classroom registration and schedulin
   * Rails 5.1.0
   * Node v7.9.0
   * Yan 0.23.3
+  * postgres 9.6.2
 
 * Configuration
 
