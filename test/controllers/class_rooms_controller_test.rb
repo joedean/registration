@@ -39,6 +39,7 @@ class ClassRoomsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should destroy class_room" do
+    @class_room.courses.delete_all
     assert_difference('ClassRoom.count', -1) do
       delete class_room_url(@class_room)
     end

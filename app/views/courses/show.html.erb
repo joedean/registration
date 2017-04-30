@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Class room:</strong>
+  <%= @course.class_room %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @course.category %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @course.name %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @course.level %>
+</p>
+
+<p>
+  <strong>Start age:</strong>
+  <%= @course.start_age %>
+</p>
+
+<p>
+  <strong>End age:</strong>
+  <%= @course.end_age %>
+</p>
+
+<p>
+  <strong>Wday:</strong>
+  <%= @course.wday %>
+</p>
+
+<p>
+  <strong>Start at:</strong>
+  <%= @course.start_at %>
+</p>
+
+<p>
+  <strong>End at:</strong>
+  <%= @course.end_at %>
+</p>
+
+<p>
+  <strong>Max size:</strong>
+  <%= @course.max_size %>
+</p>
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>

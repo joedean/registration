@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  class_room: one
+  category: MyString
+  name: MyString
+  level: MyString
+  start_age: 1
+  end_age: 1
+  wday: 1
+  start_at: 2017-04-29 17:26:08
+  end_at: 2017-04-29 17:26:08
+  max_size: 1
+
+two:
+  class_room: two
+  category: MyString
+  name: MyString
+  level: MyString
+  start_age: 1
+  end_age: 1
+  wday: 1
+  start_at: 2017-04-29 17:26:08
+  end_at: 2017-04-29 17:26:08
+  max_size: 1

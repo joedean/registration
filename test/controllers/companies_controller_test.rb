@@ -39,6 +39,7 @@ class CompaniesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should destroy company" do
+    @company.class_rooms.first.courses.delete_all
     assert_difference('Company.count', -1) do
       delete company_url(@company)
     end

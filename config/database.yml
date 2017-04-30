@@ -1,8 +1,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: <%= Registration::Application.secrets[:database][:username] %>
-  password: <%= Registration::Application.secrets[:database][:password] %>
+  username: postgres
+  password: postgres4dm1n
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
